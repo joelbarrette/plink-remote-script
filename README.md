@@ -1,5 +1,7 @@
 # plink-remote-script
 
+## about
+
 A simple tool for automating SSH sessions, and saving all console outputs to text files. This is useful when you have multiple servers accessible via SSH from a single Windows jumphost. Uses the commandline component of putty, plink. 
 
 #### prs has three components:
@@ -12,3 +14,11 @@ A simple tool for automating SSH sessions, and saving all console outputs to tex
 
 3. commands.txt:
 > list of commands to be executed on remote host
+
+
+## dependencies
+
+Plink is required and can be installed with the main putty installer. Otherwise download plink.exe from the page below and move to system32 folder:
+
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
