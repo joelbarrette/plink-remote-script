@@ -1,1 +1,1 @@
-netapp-log-export.bat "user" "password" "host" "export file name"
+log-export.bat "user" "password" "host" "export file name"
